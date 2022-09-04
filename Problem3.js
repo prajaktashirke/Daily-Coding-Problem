@@ -13,3 +13,11 @@
 
 // node = Node('root', Node('left', Node('left.left')), Node('right'))
 // assert deserialize(serialize(node)).left.left.val == 'left.left'
+
+class Node {
+    constructor(value) {
+        this.value=value;
+      this.left = null;
+      this.right =null;
+    }
+}
